@@ -9,10 +9,10 @@ The purpose of this DHCP manipulation is to trick device profilers into believei
 python scapydhcpclient.py [profile]
 profile is one of the following:
 
-"microsoft"
+" microsoft"
 " Linux"
 " CiscoAp" 
-" HPLAsterJet"
+" HPLaserJet"
 " minimal"
 
 "Minimal" sends minimum number of DHCP options in the packet (meant to be the stealthy one)
